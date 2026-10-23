@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-10-23T11:07:17Z",
+  "elapsed_seconds": 493.98,
+  "thresholds": {
+    "near_dedup_jaccard": 0.8,
+    "min_words": 3,
+    "min_chars": 15,
+    "max_symbol_ratio": 0.4,
+    "max_numeric_ratio": 0.7
+  },
+  "input_file_hashes": {
+    "hinglish_top_train.tsv": "8bcf9a01e467a97195631f1ec9983af27ef9a752b6d8f8537764e81814102360",
+    "hiwiki-latest-pages-articles.xml": "b2914dd18b24240e829e4497a4199940f514cd7aaa121b3d3227bec2f99388bb"
+  },
+  "stage_counts": {
+    "raw_scanned": 28415,
+    "dropped_ingest": 10422,
+    "dropped_quality_filter": 764,
+    "dropped_exact_dedup": 229,
+    "dropped_near_dedup": 1632,
+    "kept_total": 15368,
+    "kept_by_lang": {
+      "hi": 12021,
+      "hi-Latn": 2848,
+      "en or other": 499
+    }
+  }
+}

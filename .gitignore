@@ -218,3 +218,24 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Raw downloaded data & exploratory dumps
+raw/
+*.xml
+*.bz2
+*.tsv
+hiwiki_raw.jsonl
+hinglish_raw.jsonl
+convert_xml_to_jsonl.py
+convert_tsv_to_jsonl.py
+
+# Full datasets & ledgers (excluded per assignment instructions)
+output/clean/
+output/ledger.csv
+
+# Python bytecode & system files
+__pycache__/
+*.py[cod]
+.DS_Store
+.vscode/
+.idea/
